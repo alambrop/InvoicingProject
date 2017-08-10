@@ -1,0 +1,144 @@
+body {
+    padding: 5px;
+    margin: auto;
+    width: 550px;
+    border: 2px solid dimgray;
+    border-radius: 4px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+/* AIG & Invoice# */
+h1 {
+  margin: auto;
+  background-color: rgb(0,164,228);
+  border-radius: 5px;
+  width: 525px;
+  height: 75px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* AIG Header */
+div[id=header]{
+  display: block;
+  font-family: "Arial";
+  text-align: left;
+  font-size: 50px;
+  color: white;
+  float: left;
+  padding: 4px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+/* Invoice# */
+div[id=inv_num]{
+  display: block;
+  font-family: "Arial";
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  float: right;
+}
+
+.policy {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Payment Amount */
+h2 {
+    color: rgb(84, 86, 91);
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+/* Bill Amount */
+h3 {
+    color: rgb(0,164,228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+    line-height: 25px;
+}
+
+/* Payment Due Date */
+h4 {
+    color: rgba(196, 18, 48, 0.9);
+    line-height: 20px;
+}
+
+h2, h4, p, .button, .checkbox {
+    font-family: "Raleway";
+}
+
+li {
+    display: inline-block;
+}
+ul {
+  position: relative;
+  right: 15px;
+
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buttons {
+    border: 2px solid rgb(118, 119, 123);
+    color: rgb(84, 86, 91);
+    background-color: white;
+    width: 155px;
+}
+
+#creditcard, #bankaccount {
+    height: 65px;
+}
+
+.buttons:hover {
+    background-color:   rgb(118, 119, 123); 
+    color: white; 
+}
+.paypal {
+    position: relative;
+    top: 31px;
+}
+
+#bankform, #cardform {
+    display: none;
+}
+
+#bankform input, #cardform input {
+    text-align: left;
+    margin: 5px 0px;
+}
+
+#bankform input:focus, #cardform input:focus, #dtpcker input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#bankform input[placeholder], #cardform input[placeholder] {
+    text-align: center;
+}
+
+#dtpcker input {
+    text-align: center;
+}
+#dateBox {
+    position: relative;
+    bottom: 13px;
+    right: 4px;
+}
